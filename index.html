@@ -7,6 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Yoga</title>
 </head>
 <body>
@@ -35,7 +43,7 @@
     <section class="main">
         <div class="container">
             <div class="main__text-wrapper">
-                <div class="main__title">
+                <div class="main__title animate__animated animate__fadeIn wow">
                     <div class="main__title-text">
                         Choose Your<br> 
                         Best<br>
@@ -50,42 +58,23 @@
                         <stop offset="1" stop-color="#9F53FF"/>
                         </linearGradient>
                         </defs>
-                    </svg>
-                    <svg class="main__flower-img" width="95" height="92" viewBox="0 0 95 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M60.701 45.6731C60.701 57.949 59.0654 69.0216 56.4481 76.9909C55.1377 80.981 53.5991 84.1376 51.9387 86.2759C50.2683 88.4273 48.5945 89.4045 47.0103 89.4045C45.4261 89.4045 43.7523 88.4273 42.0819 86.2759C40.4215 84.1376 38.8829 80.981 37.5725 76.9909C34.9552 69.0216 33.3196 57.949 33.3196 45.6731C33.3196 33.3972 34.9552 22.3246 37.5725 14.3553C38.8829 10.3652 40.4215 7.20854 42.0819 5.07022C43.7523 2.91892 45.4261 1.94171 47.0103 1.94171C48.5945 1.94171 50.2683 2.91892 51.9387 5.07022C53.5991 7.20854 55.1377 10.3652 56.4481 14.3553C59.0654 22.3246 60.701 33.3972 60.701 45.6731Z" stroke="url(#paint0_linear_42_99)" stroke-width="2"/>
-                        <path d="M47.5 58.3279C34.7238 58.3279 23.1962 56.7542 14.8955 54.2337C10.7389 52.9716 7.44798 51.4889 5.21836 49.8882C2.96476 48.2704 1.97936 46.6733 1.97936 45.2022C1.97936 43.7312 2.96476 42.1341 5.21836 40.5162C7.44798 38.9156 10.7389 37.4328 14.8955 36.1707C23.1962 33.6503 34.7238 32.0765 47.5 32.0765C60.2761 32.0765 71.8038 33.6503 80.1045 36.1707C84.2611 37.4328 87.552 38.9156 89.7816 40.5162C92.0352 42.1341 93.0206 43.7312 93.0206 45.2022C93.0206 46.6733 92.0352 48.2704 89.7816 49.8882C87.552 51.4889 84.2611 52.9716 80.1045 54.2337C71.8038 56.7542 60.2761 58.3279 47.5 58.3279Z" stroke="url(#paint1_linear_42_99)" stroke-width="2"/>
-                        <path d="M47.0103 16.9508L51.9965 40.4078L76.3918 45.2022L51.9965 49.9967L47.0103 73.4536L42.0241 49.9967L17.6289 45.2022L42.0241 40.4078L47.0103 16.9508Z" fill="url(#paint2_linear_42_99)" stroke="#F8F0FD" stroke-width="1.5"/>
-                        <defs>
-                        <linearGradient id="paint0_linear_42_99" x1="32.3196" y1="45.6731" x2="58.7528" y2="42.166" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#FF62B7"/>
-                        <stop offset="1" stop-color="#9F53FF"/>
-                        </linearGradient>
-                        <linearGradient id="paint1_linear_42_99" x1="47.5" y1="31.0765" x2="50.6256" y2="56.5571" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#FF62B7"/>
-                        <stop offset="1" stop-color="#9F53FF"/>
-                        </linearGradient>
-                        <linearGradient id="paint2_linear_42_99" x1="17.6289" y1="45.2022" x2="63.3544" y2="25.991" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#FF62B7"/>
-                        <stop offset="1" stop-color="#9F53FF"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>      
+                    </svg>     
                 </div>
-                <div class="main__text">
+                <div class="main__text animate__animated animate__fadeIn wow">
                     Calm your mind and body with the best yoga teachers available, relax your day and stay positive.
                 </div>
-                <button class="main__btn">
+                <button class="main__btn animate__animated animate__pulse wow" data-wow-iteration="infinite">
                     <div class="main__btn-text">Get Started Free</div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M16.172 11L10.808 5.636L12.222 4.222L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" fill="white"/>
                     </svg>
                 </button>
                 <div class="main__stat-wrapper">
-                    <div class="main__stat-item">
+                    <div class="main__stat-item animate__animated animate__lightSpeedInLeft wow">
                         <div class="main__stat-num">300+</div>
                         <div class="main__stat-text">Yoga Class</div>
                     </div>
-                    <div class="main__stat-item">
+                    <div class="main__stat-item animate__animated animate__lightSpeedInRight wow">
                         <div class="main__stat-num">40+</div>
                         <div class="main__stat-text">Participants</div>
                     </div>
@@ -118,7 +107,7 @@
                 </svg>
                 Get a list of specific influencers in your niche at your fingertips so you can focus on managing your status.
             </div>
-            <svg class="steps__btn" width="150" height="143" viewBox="0 0 150 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="steps__btn  animate__animated animate__pulse wow" data-wow-iteration="infinite" width="150" height="143" viewBox="0 0 150 143" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M98.2271 94.5088C85.1694 107.566 70.7267 116.714 57.9598 120.97C45.1454 125.241 34.2605 124.521 28.0085 118.269C21.7565 112.017 21.0356 101.132 25.3071 88.3172C29.5627 75.5503 38.7106 61.1076 51.7682 48.0499C64.8259 34.9922 79.2687 25.8444 92.0355 21.5887C104.85 17.3173 115.735 18.0381 121.987 24.2901C128.239 30.5421 128.96 41.427 124.688 54.2414C120.433 67.0083 111.285 81.4511 98.2271 94.5088Z" stroke="url(#paint0_linear_42_149)" stroke-width="1.5"/>
                 <path d="M91.4258 99.7293C75.4334 108.962 59.1152 114.061 45.6819 114.867C32.1985 115.676 21.8711 112.163 17.4503 104.506C13.0295 96.8485 15.1504 86.1479 22.5929 74.8756C30.0079 63.6452 42.582 52.0622 58.5744 42.829C74.5667 33.5959 90.885 28.4978 104.318 27.6915C117.802 26.8822 128.129 30.3957 132.55 38.0528C136.971 45.7099 134.85 56.4104 127.407 67.6827C119.992 78.9131 107.418 90.4961 91.4258 99.7293Z" stroke="url(#paint1_linear_42_149)" stroke-width="1.5"/>
                 <path d="M53.336 78H51.512L46.024 69.696V78H44.2V66.864H46.024L51.512 75.152V66.864H53.336V78ZM63.8113 73.376C63.8113 73.7067 63.7899 74.0053 63.7473 74.272H57.0113C57.0646 74.976 57.3259 75.5413 57.7953 75.968C58.2646 76.3947 58.8406 76.608 59.5233 76.608C60.5046 76.608 61.1979 76.1973 61.6033 75.376H63.5712C63.3046 76.1867 62.8193 76.8533 62.1153 77.376C61.4219 77.888 60.5579 78.144 59.5233 78.144C58.6806 78.144 57.9233 77.9573 57.2513 77.584C56.5899 77.2 56.0673 76.6667 55.6833 75.984C55.3099 75.2907 55.1233 74.4907 55.1233 73.584C55.1233 72.6773 55.3046 71.8827 55.6673 71.2C56.0406 70.5067 56.5579 69.9733 57.2193 69.6C57.8913 69.2267 58.6593 69.04 59.5233 69.04C60.3553 69.04 61.0966 69.2213 61.7473 69.584C62.3979 69.9467 62.9046 70.4587 63.2673 71.12C63.6299 71.7707 63.8113 72.5227 63.8113 73.376ZM61.9073 72.8C61.8966 72.128 61.6566 71.5893 61.1873 71.184C60.7179 70.7787 60.1366 70.576 59.4433 70.576C58.8139 70.576 58.2753 70.7787 57.8273 71.184C57.3793 71.5787 57.1126 72.1173 57.0273 72.8H61.9073ZM69.3823 73.536L72.2303 78H70.1663L68.2623 75.008L66.4703 78H64.5663L67.4143 73.664L64.5663 69.184H66.6303L68.5343 72.176L70.3263 69.184H72.2303L69.3823 73.536ZM75.7186 70.672V75.552C75.7186 75.8827 75.7933 76.1227 75.9426 76.272C76.1026 76.4107 76.3693 76.48 76.7426 76.48H77.8626V78H76.4226C75.6013 78 74.972 77.808 74.5346 77.424C74.0973 77.04 73.8786 76.416 73.8786 75.552V70.672H72.8386V69.184H73.8786V66.992H75.7186V69.184H77.8626V70.672H75.7186Z" fill="url(#paint2_linear_42_149)"/>
@@ -149,13 +138,13 @@
             <img src="images/man-img.png" alt="" class="man__img">
             <div class="man__text-wrapper">
                 <div class="man__title">
-                    Bring Happiness To<br>
+                    Bring Happiness To
                     Good Health!
                 </div>
                 <div class="man__text">
                     If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.
                 </div>
-                <button class="man__btn">
+                <button class="man__btn animate__animated animate__pulse wow" data-wow-iteration="infinite">
                     <div class="man__btn-text">Let’s Start</div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M16.172 11L10.808 5.63605L12.222 4.22205L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" fill="white"/>
@@ -173,7 +162,7 @@
                 <div class="place__text">
                     Take your routine at any time of your day, with the new videos and with the teachers who will guide you.
                 </div>
-                <button class="place__btn">
+                <button class="place__btn animate__animated animate__pulse wow" data-wow-iteration="infinite">
                     <div class="place__btn-text">Get Started Free</div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M16.172 11L10.808 5.63605L12.222 4.22205L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" fill="white"/>
@@ -191,58 +180,60 @@
                 </div>
                 <div class="follow__wrapper">
                     <div class="follow__wrapper-top">
-                        <img src="images/follow-yoga-1.png" alt="">
-                        <img src="images/follow-yoga-2.png" alt="">
+                        <img src="images/follow-yoga-1.png" alt="" class="follow-1 animate__animated animate__slideInLeft wow">
+                        <img src="images/follow-yoga-2.png" alt="" class="follow-2 animate__animated animate__slideInRight wow" data-wow-delay="0.2s">
                     </div>
                     <div class="follow__wrapper-bottom">
-                        <img src="images/follow-yoga-3.png" alt="">
-                        <img src="images/follow-yoga-4.png" alt="">
+                        <img src="images/follow-yoga-3.png" alt="" class="follow-3 animate__animated animate__slideInLeft wow" data-wow-delay="0.2s">
+                        <img src="images/follow-yoga-4.png" alt="" class="follow-4 animate__animated animate__slideInRight wow" data-wow-delay="0.2s">
                     </div>
                 </div>
         </div>
     </section>
     <section class="form">
         <div class="container">
-            <div class="form__title">
-                Join our newsletter
-            </div>
-            <div class="form__text">
-                Subscribe to our newsletter to be aware of many things on discounts, gifts, training and much more. Just enter your email.
-            </div>
-            <div class="form__action-wrapper">
-                <input type="email" class="form__input" placeholder="For latest update send mail">
-                <button class="form__btn">
-                    <div class="form__btn-text">Subscribe</div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M16.172 10.9999L10.808 5.63592L12.222 4.22192L20 11.9999L12.222 19.7779L10.808 18.3639L16.172 12.9999H4V10.9999H16.172Z" fill="white"/>
-                    </svg>
-                </button>
+            <div class="form__absolute-wrapper">
+                <div class="form__title">
+                    Join our newsletter
+                </div>
+                <div class="form__text">
+                    Subscribe to our newsletter to be aware of many things on discounts, gifts, training and much more. Just enter your email.
+                </div>
+                <div class="form__action-wrapper">
+                    <input type="email" class="form__input" placeholder="Email">
+                    <button class="form__btn animate__animated animate__pulse wow" data-wow-iteration="infinite">
+                        <div class="form__btn-text">Subscribe</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M16.172 10.9999L10.808 5.63592L12.222 4.22192L20 11.9999L12.222 19.7779L10.808 18.3639L16.172 12.9999H4V10.9999H16.172Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
             <div class="footer__main-wrapper">
-                <div class="footer__company-wrapper">
+                <div class="footer__company-wrapper animate__animated animate__lightSpeedInLeft wow">
                     <div class="footer__logo">Yoga</div>
                     <div class="footer__company-text">
                         Take care of your health and<br> your mind with the best Yoga<br> classes.
                     </div>
                 </div>
-                <div class="footer__item-wrapper">
+                <div class="footer__item-wrapper  animate__animated animate__lightSpeedInRight wow">
                     <div class="footer__item-title">Address</div>
                     <div class="footer__item-text">
                         12345 M/01 Sol<br> Avenue, Lima, Peru
                     </div>
                 </div>
-                <div class="footer__item-wrapper">
+                <div class="footer__item-wrapper  animate__animated animate__lightSpeedInLeft wow">
                     <div class="footer__item-title">Contact</div>
                     <div class="footer__item-text">
                         +123 456 7890<br>
                         yoga@email.com
                     </div>
                 </div>
-                <div class="footer__item-wrapper">
+                <div class="footer__item-wrapper  animate__animated animate__lightSpeedInRight wow">
                     <div class="footer__item-title">Office</div>
                     <div class="footer__item-text">
                         Monday - Saturday<br>
